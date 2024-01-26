@@ -11,5 +11,9 @@
       <b>Last Name: </b>{{ item.last_name }}<br>
     </p>
     {% endfor %}
+
+    <a href="{% url 'edit_user' %}" class="btn btn-secondary">Edit Profile</a>
+<a href="{% url 'change_password' %}" class="btn btn-secondary">Change Password</a>
+
 </div>
 {% endblock %}
