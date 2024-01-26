@@ -5,10 +5,10 @@
     <h2>Information</h2>
     {% for item in data %}
     <p>
-      {{ item.username }}
-      {{ item.email }}
-      {{ item.first_name }}
-      {{ item.last_name }}
+      <b>Username: </b>{{ item.username }}<br>
+      <b>Email: </b>{{ item.email }}<br>
+      <b>First Name: </b>{{ item.first_name }}<br>
+      <b>Last Name: </b>{{ item.last_name }}<br>
     </p>
     {% endfor %}
 </div>
